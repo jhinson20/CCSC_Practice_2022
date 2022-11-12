@@ -53,7 +53,6 @@ public class FrenchCountryNames_1 {
             }
 
             System.out.println(countries.get(i));
-
         }
 
     }
