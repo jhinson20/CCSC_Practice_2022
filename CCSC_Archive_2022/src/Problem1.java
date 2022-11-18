@@ -14,9 +14,9 @@ public class Problem1 {
 
         for(int i = 0; i < cases; i++) {
 
-            if(years.get(i) <= 1982 || years.get(i) >= 2048) {
+            if(years.get(i) < 1982 || years.get(i) > 2048) {
                 System.out.println("Date out of range");
-                break;
+                continue;
             }
 
             int a = years.get(i) % 19;

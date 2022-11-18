@@ -22,7 +22,7 @@ public class Problem2 {
 
 
             for(int j = 0; j < dailyWord.length(); j++) {
-                hint[j] = '_';
+                //hint[j] = '_';
             }
 
             for (int j = 0; j < 6; j++) {
@@ -35,7 +35,7 @@ public class Problem2 {
 
                     for(int k = 0; k < dailyWord.length(); k++) {
                         if(guess.charAt(k) == dailyWordArray[k]) {
-                            hint[k] = guess.charAt(k);
+                            //hint[k] = guess.charAt(k);
                         }
 
                     }
